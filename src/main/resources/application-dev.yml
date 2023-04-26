@@ -1,0 +1,28 @@
+logging:
+  file:
+    name: ./log/demo.log
+  level:
+    com.xsy: debug
+    com.demo: debug
+spring:
+  datasource:
+    druid:
+      #MySQL
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://192.168.2.24:3306/web_base_demo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true&useSSL=false
+      username: root
+      password: xiangsuyuan
+    schema: classpath:db/mysql-schema.sql
+#    data: classpath:db/mysql-data.sql
+  redis:
+    host: 192.168.2.24  # 连接池中的最小空闲连接
+file-storage:
+  #  local:
+  #    base-path: 'D:'
+  fastdfs:
+    enable: false
+#fastdfs配置
+fdfs:
+  # tracker列表
+  trackerList:
+    - 192.168.2.24:22122
