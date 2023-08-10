@@ -55,10 +55,10 @@ spring:
         wall:
           config:
             multi-statement-allow: true
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
   task:
     scheduling:
       pool:
