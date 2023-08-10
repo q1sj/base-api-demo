@@ -1,0 +1,1832 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "bd348c89-7c13-4821-85b8-62941d434f4a",
+    "name": "xsy-api-demo-1.0.0"
+  },
+  "item": [
+    {
+      "name": "文件上传测试",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/download?path=58cyeh",
+              "path": [
+                "download"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "path",
+                  "value": "58cyeh",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/download2?path=k67tys",
+              "path": [
+                "download2"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "path",
+                  "value": "k67tys",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "description": "No comments found.",
+                  "value": "",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "::server/upload",
+              "path": [
+                "upload"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "description": "No comments found.",
+                  "value": "",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "::server/asyncUpload",
+              "path": [
+                "asyncUpload"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/detail?path=clwghm",
+              "path": [
+                "detail"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "path",
+                  "value": "clwghm",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "path",
+                  "type": "text",
+                  "description": "No comments found.",
+                  "value": "dmd5n9",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "::server/delete",
+              "path": [
+                "delete"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Interface name is not set.",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/testConfig/test",
+              "path": [
+                "testConfig",
+                "test"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/testConfig/list?value=673cfx",
+              "path": [
+                "testConfig",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "value",
+                  "value": "673cfx",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Interface name is not set.",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/getValue",
+              "path": [
+                "getValue"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "应用信息",
+      "item": [
+        {
+          "name": "系统版本号",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/version",
+              "path": [
+                "version"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "系统版本号",
+            "header": []
+          },
+          "description": "系统版本号"
+        }
+      ]
+    },
+    {
+      "name": "日志下载",
+      "item": [
+        {
+          "name": "日志列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/log/list",
+              "path": [
+                "log",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "日志列表",
+            "header": []
+          },
+          "description": "日志列表"
+        },
+        {
+          "name": "日志下载",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/log/get?name=morgan.considine",
+              "path": [
+                "log",
+                "get"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "name",
+                  "value": "morgan.considine",
+                  "description": "    文件名"
+                }
+              ],
+              "variable": []
+            },
+            "description": "日志下载",
+            "header": []
+          },
+          "description": "日志下载"
+        }
+      ]
+    },
+    {
+      "name": "文件管理",
+      "item": [
+        {
+          "name": "上传文件",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "description": "No comments found.",
+                  "value": "",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "::server/file/upload",
+              "path": [
+                "file",
+                "upload"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "上传文件",
+            "header": []
+          },
+          "description": "demo 根据具体业务单独编写接口 设置文件大小阈值,合法后缀名"
+        },
+        {
+          "name": "下载文件",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/file/download?path=ewvldy",
+              "path": [
+                "file",
+                "download"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "path",
+                  "value": "ewvldy",
+                  "description": "    {@link FileRecordEntity#getPath()}"
+                }
+              ],
+              "variable": []
+            },
+            "description": "下载文件",
+            "header": []
+          },
+          "description": "下载文件"
+        },
+        {
+          "name": "下载文件",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/file/download/687",
+              "path": [
+                "file",
+                "download",
+                ":fileId"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "fileId",
+                  "value": "687",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "下载文件",
+            "header": []
+          },
+          "description": "下载文件"
+        },
+        {
+          "name": "访问图片",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/file/img/226",
+              "path": [
+                "file",
+                "img",
+                ":fileId"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "fileId",
+                  "value": "226",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "访问图片",
+            "header": []
+          },
+          "description": "访问图片"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "path",
+                  "type": "string",
+                  "description": "No comments found.",
+                  "value": "66ym86",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "::server/file/delete",
+              "path": [
+                "file",
+                "delete"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "定时任务",
+      "item": [
+        {
+          "name": "定时任务列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/schedule/list?params=",
+              "path": [
+                "sys",
+                "schedule",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "定时任务列表",
+            "header": []
+          },
+          "description": "定时任务列表"
+        },
+        {
+          "name": "定时任务信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/schedule/info/880",
+              "path": [
+                "sys",
+                "schedule",
+                "info",
+                ":jobId"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "jobId",
+                  "value": "880",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "定时任务信息",
+            "header": []
+          },
+          "description": "定时任务信息"
+        },
+        {
+          "name": "保存定时任务",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jobId\": 157,\n  \"beanName\": \"morgan.considine\",\n  \"params\": \"pxxlxs\",\n  \"cronExpression\": \"fmmr8c\",\n  \"status\": 783,\n  \"remark\": \"vie8rv\",\n  \"createTime\": \"2023-08-10 10:27:14\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/schedule/save",
+              "path": [
+                "sys",
+                "schedule",
+                "save"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存定时任务",
+            "header": []
+          },
+          "description": "保存定时任务"
+        },
+        {
+          "name": "修改定时任务",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jobId\": 30,\n  \"beanName\": \"morgan.considine\",\n  \"params\": \"6arz0d\",\n  \"cronExpression\": \"bno6bu\",\n  \"status\": 297,\n  \"remark\": \"p1w8nj\",\n  \"createTime\": \"2023-08-10 10:27:14\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/schedule/update",
+              "path": [
+                "sys",
+                "schedule",
+                "update"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改定时任务",
+            "header": []
+          },
+          "description": "修改定时任务"
+        },
+        {
+          "name": "删除定时任务",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  \"pfuyju\"\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/schedule/delete",
+              "path": [
+                "sys",
+                "schedule",
+                "delete"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除定时任务",
+            "header": []
+          },
+          "description": "删除定时任务"
+        },
+        {
+          "name": "立即执行任务",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  \"k32557\"\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/schedule/run",
+              "path": [
+                "sys",
+                "schedule",
+                "run"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "立即执行任务",
+            "header": []
+          },
+          "description": "立即执行任务"
+        },
+        {
+          "name": "暂停定时任务",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  \"chcxzx\"\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/schedule/pause",
+              "path": [
+                "sys",
+                "schedule",
+                "pause"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "暂停定时任务",
+            "header": []
+          },
+          "description": "暂停定时任务"
+        },
+        {
+          "name": "恢复定时任务",
+          "request": {
+            "method": "GET",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  \"5nnjy2\"\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/schedule/resume",
+              "path": [
+                "sys",
+                "schedule",
+                "resume"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "恢复定时任务",
+            "header": []
+          },
+          "description": "恢复定时任务"
+        }
+      ]
+    },
+    {
+      "name": "定时任务日志",
+      "item": [
+        {
+          "name": "定时任务日志列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/scheduleLog/list?params=",
+              "path": [
+                "sys",
+                "scheduleLog",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "any object",
+                  "value": "",
+                  "description": "any object."
+                }
+              ],
+              "variable": []
+            },
+            "description": "定时任务日志列表",
+            "header": []
+          },
+          "description": "定时任务日志列表"
+        },
+        {
+          "name": "定时任务日志信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/scheduleLog/info/914",
+              "path": [
+                "sys",
+                "scheduleLog",
+                "info",
+                ":logId"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "logId",
+                  "value": "914",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "定时任务日志信息",
+            "header": []
+          },
+          "description": "定时任务日志信息"
+        }
+      ]
+    },
+    {
+      "name": "登录",
+      "item": [
+        {
+          "name": "登录",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"morgan.considine\",\n  \"password\": \"z4wzbr\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/login",
+              "path": [
+                "login"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "登录",
+            "header": []
+          },
+          "description": "登录"
+        },
+        {
+          "name": "登出",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "url": {
+              "raw": "::server/logout",
+              "path": [
+                "logout"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "登出",
+            "header": []
+          },
+          "description": "登出"
+        }
+      ]
+    },
+    {
+      "name": "参数管理",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/config/list?configKey=fmjfzz&page=1&pageSize=10",
+              "path": [
+                "sys",
+                "config",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "configKey",
+                  "value": "fmjfzz",
+                  "description": "No comments found."
+                },
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "No comments found."
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "新增或修改",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"configKey\": \"34w0rl\",\n  \"configValueType\": \"6wi1ig\",\n  \"configValue\": \"hfyo00\",\n  \"remark\": \"irmgbh\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/config/saveOrUpdate",
+              "path": [
+                "sys",
+                "config",
+                "saveOrUpdate"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "新增或修改",
+            "header": []
+          },
+          "description": "新增或修改"
+        },
+        {
+          "name": "参数值数据类型",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/config/configValueType",
+              "path": [
+                "sys",
+                "config",
+                "configValueType"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "参数值数据类型",
+            "header": []
+          },
+          "description": "参数值数据类型"
+        }
+      ]
+    },
+    {
+      "name": "Interface name is not set.",
+      "item": []
+    },
+    {
+      "name": "菜单管理",
+      "item": [
+        {
+          "name": "nav",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/nav",
+              "path": [
+                "sys",
+                "menu",
+                "nav"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "nav",
+            "header": []
+          },
+          "description": "nav"
+        },
+        {
+          "name": "当前用户拥有权限",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/permissions",
+              "path": [
+                "sys",
+                "menu",
+                "permissions"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "当前用户拥有权限",
+            "header": []
+          },
+          "description": "当前用户拥有权限"
+        },
+        {
+          "name": "后端所有可配置权限",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/allPermissions",
+              "path": [
+                "sys",
+                "menu",
+                "allPermissions"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "后端所有可配置权限",
+            "header": []
+          },
+          "description": "后端所有可配置权限"
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/list?type=396",
+              "path": [
+                "sys",
+                "menu",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "396",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "根据id查询",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/721",
+              "path": [
+                "sys",
+                "menu",
+                ":id"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "721",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "根据id查询",
+            "header": []
+          },
+          "description": "根据id查询"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"children\": [\n    {\n      \"$ref\": \"..\"\n    }\n  ],\n  \"id\": 725,\n  \"pid\": 682,\n  \"name\": \"morgan.considine\",\n  \"url\": \"www.ben-hoppe.name\",\n  \"type\": 31,\n  \"icon\": \"wtdxz8\",\n  \"permissions\": \"zvw2id\",\n  \"sort\": 588,\n  \"parentName\": \"morgan.considine\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/",
+              "path": [
+                "sys",
+                "menu",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "更新",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"children\": [\n    {\n      \"$ref\": \"..\"\n    }\n  ],\n  \"id\": 617,\n  \"pid\": 555,\n  \"name\": \"morgan.considine\",\n  \"url\": \"www.ben-hoppe.name\",\n  \"type\": 28,\n  \"icon\": \"e8k4tx\",\n  \"permissions\": \"tmkbhy\",\n  \"sort\": 392,\n  \"parentName\": \"morgan.considine\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/",
+              "path": [
+                "sys",
+                "menu",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "更新",
+            "header": []
+          },
+          "description": "更新"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "DELETE",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/173",
+              "path": [
+                "sys",
+                "menu",
+                ":id"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "173",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        },
+        {
+          "name": "当前用户拥有菜单",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/select",
+              "path": [
+                "sys",
+                "menu",
+                "select"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "当前用户拥有菜单",
+            "header": []
+          },
+          "description": "当前用户拥有菜单"
+        }
+      ]
+    },
+    {
+      "name": "角色管理",
+      "item": [
+        {
+          "name": "分页查询",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/page?page=1&pageSize=10&name=morgan.considine",
+              "path": [
+                "sys",
+                "role",
+                "page"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "当前页"
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "description": "每页条数"
+                },
+                {
+                  "key": "name",
+                  "value": "morgan.considine",
+                  "description": "角色名称"
+                }
+              ],
+              "variable": []
+            },
+            "description": "分页查询",
+            "header": []
+          },
+          "description": "分页查询"
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/list?page=1&pageSize=10&name=morgan.considine",
+              "path": [
+                "sys",
+                "role",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "当前页"
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "description": "每页条数"
+                },
+                {
+                  "key": "name",
+                  "value": "morgan.considine",
+                  "description": "角色名称"
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "根据id查询",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/184",
+              "path": [
+                "sys",
+                "role",
+                ":id"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "184",
+                  "description": "角色id"
+                }
+              ]
+            },
+            "description": "根据id查询",
+            "header": []
+          },
+          "description": "根据id查询"
+        },
+        {
+          "name": "新增",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 10,\n  \"name\": \"morgan.considine\",\n  \"remark\": \"bw99t0\",\n  \"menuIdList\": [\n    626\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/",
+              "path": [
+                "sys",
+                "role",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "新增",
+            "header": []
+          },
+          "description": "新增"
+        },
+        {
+          "name": "更新",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 476,\n  \"name\": \"morgan.considine\",\n  \"remark\": \"f9i6o6\",\n  \"menuIdList\": [\n    558\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/",
+              "path": [
+                "sys",
+                "role",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "更新",
+            "header": []
+          },
+          "description": "更新"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "DELETE",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  \"4qurl9\"\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/",
+              "path": [
+                "sys",
+                "role",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "用户管理",
+      "item": [
+        {
+          "name": "分页查询",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/page?page=1&pageSize=10&username=morgan.considine",
+              "path": [
+                "sys",
+                "user",
+                "page"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "当前页"
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "description": "每页条数"
+                },
+                {
+                  "key": "username",
+                  "value": "morgan.considine",
+                  "description": "用户名"
+                }
+              ],
+              "variable": []
+            },
+            "description": "分页查询",
+            "header": []
+          },
+          "description": "分页查询"
+        },
+        {
+          "name": "根据id查询",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/983",
+              "path": [
+                "sys",
+                "user",
+                ":id"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "983",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "根据id查询",
+            "header": []
+          },
+          "description": "根据id查询"
+        },
+        {
+          "name": "当前用户信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/info",
+              "path": [
+                "sys",
+                "user",
+                "info"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "当前用户信息",
+            "header": []
+          },
+          "description": "当前用户信息"
+        },
+        {
+          "name": "修改密码",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"password\": \"1nss8n\",\n  \"newPassword\": \"nyz00j\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/password",
+              "path": [
+                "sys",
+                "user",
+                "password"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改密码",
+            "header": []
+          },
+          "description": "修改密码"
+        },
+        {
+          "name": "新增",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 213,\n  \"username\": \"morgan.considine\",\n  \"password\": \"cxjfe0\",\n  \"realName\": \"morgan.considine\",\n  \"headUrl\": \"www.ben-hoppe.name\",\n  \"gender\": 1,\n  \"email\": \"samantha.jaskolski@yahoo.com\",\n  \"mobile\": \"(615) 567-0246\",\n  \"status\": 169,\n  \"roleIdList\": [\n    67\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/",
+              "path": [
+                "sys",
+                "user",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "新增",
+            "header": []
+          },
+          "description": "新增"
+        },
+        {
+          "name": "更新",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 352,\n  \"username\": \"morgan.considine\",\n  \"password\": \"kjo19e\",\n  \"realName\": \"morgan.considine\",\n  \"headUrl\": \"www.ben-hoppe.name\",\n  \"gender\": 1,\n  \"email\": \"samantha.jaskolski@yahoo.com\",\n  \"mobile\": \"(615) 567-0246\",\n  \"status\": 404,\n  \"roleIdList\": [\n    731\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/",
+              "path": [
+                "sys",
+                "user",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "更新",
+            "header": []
+          },
+          "description": "更新"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "DELETE",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  \"vqitym\"\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/",
+              "path": [
+                "sys",
+                "user",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    }
+  ]
+}

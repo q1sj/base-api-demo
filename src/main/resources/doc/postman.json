@@ -1,0 +1,1908 @@
+{
+  "info": {
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "64c887ab-ec4a-48b2-8456-adb0a895a657",
+    "name": "xsy-api-demo-1.0.0"
+  },
+  "item": [
+    {
+      "name": "应用信息",
+      "item": [
+        {
+          "name": "系统版本号",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/version",
+              "path": [
+                "version"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "系统版本号",
+            "header": []
+          },
+          "description": "系统版本号"
+        }
+      ]
+    },
+    {
+      "name": "日志下载",
+      "item": [
+        {
+          "name": "日志列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/log/list",
+              "path": [
+                "log",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "日志列表",
+            "header": []
+          },
+          "description": "日志列表"
+        },
+        {
+          "name": "日志下载",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/log/get?name=douglas.champlin",
+              "path": [
+                "log",
+                "get"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "name",
+                  "value": "douglas.champlin",
+                  "description": "    文件名"
+                }
+              ],
+              "variable": []
+            },
+            "description": "日志下载",
+            "header": []
+          },
+          "description": "日志下载"
+        }
+      ]
+    },
+    {
+      "name": "文件管理",
+      "item": [
+        {
+          "name": "上传文件 demo\r\n<p>\r\n根据具体业务单独编写接口 设置文件大小阈值,合法后缀名",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "description": "No comments found.",
+                  "value": "",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "::server/file/upload",
+              "path": [
+                "file",
+                "upload"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "上传文件 demo\r\n<p>\r\n根据具体业务单独编写接口 设置文件大小阈值,合法后缀名",
+            "header": []
+          },
+          "description": "上传文件 demo\r\n<p>\r\n根据具体业务单独编写接口 设置文件大小阈值,合法后缀名"
+        },
+        {
+          "name": "下载文件",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/file/download?path=ovb6zx",
+              "path": [
+                "file",
+                "download"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "path",
+                  "value": "ovb6zx",
+                  "description": "    {@link FileRecordEntity#getPath()}"
+                }
+              ],
+              "variable": []
+            },
+            "description": "下载文件",
+            "header": []
+          },
+          "description": "下载文件"
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "path",
+                  "type": "string",
+                  "description": "No comments found.",
+                  "value": "855swo",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "::server/file/delete",
+              "path": [
+                "file",
+                "delete"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "登录",
+      "item": [
+        {
+          "name": "登录",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"douglas.champlin\",\n  \"password\": \"lw81w1\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/login",
+              "path": [
+                "login"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "登录",
+            "header": []
+          },
+          "description": "登录"
+        },
+        {
+          "name": "登出",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "url": {
+              "raw": "::server/logout",
+              "path": [
+                "logout"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "登出",
+            "header": []
+          },
+          "description": "登出"
+        }
+      ]
+    },
+    {
+      "name": "参数管理",
+      "item": [
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/config/list?configKey=0nwy17&page=1&pageSize=10",
+              "path": [
+                "sys",
+                "config",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "configKey",
+                  "value": "0nwy17",
+                  "description": "No comments found."
+                },
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "No comments found."
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "新增或修改",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"configKey\": \"1a6u1l\",\n  \"configValue\": \"apvxze\",\n  \"remark\": \"w0cjuj\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/config/saveOrUpdate",
+              "path": [
+                "sys",
+                "config",
+                "saveOrUpdate"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "新增或修改",
+            "header": []
+          },
+          "description": "新增或修改"
+        }
+      ]
+    },
+    {
+      "name": "菜单管理",
+      "item": [
+        {
+          "name": "nav",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/nav",
+              "path": [
+                "sys",
+                "menu",
+                "nav"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "nav",
+            "header": []
+          },
+          "description": "nav"
+        },
+        {
+          "name": "当前用户拥有权限",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/permissions",
+              "path": [
+                "sys",
+                "menu",
+                "permissions"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "当前用户拥有权限",
+            "header": []
+          },
+          "description": "当前用户拥有权限"
+        },
+        {
+          "name": "后端所有可配置权限",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/allPermissions",
+              "path": [
+                "sys",
+                "menu",
+                "allPermissions"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "后端所有可配置权限",
+            "header": []
+          },
+          "description": "后端所有可配置权限"
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/list?type=994",
+              "path": [
+                "sys",
+                "menu",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "994",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "根据id查询",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/468",
+              "path": [
+                "sys",
+                "menu",
+                ":id"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "468",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "根据id查询",
+            "header": []
+          },
+          "description": "根据id查询"
+        },
+        {
+          "name": "保存",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"children\": [\n    {\n      \"$ref\": \"..\"\n    }\n  ],\n  \"id\": 794,\n  \"pid\": 813,\n  \"name\": \"douglas.champlin\",\n  \"url\": \"www.alayna-dibbert.info\",\n  \"type\": 347,\n  \"icon\": \"v7q312\",\n  \"permissions\": \"1yxp1l\",\n  \"sort\": 595,\n  \"parentName\": \"douglas.champlin\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/",
+              "path": [
+                "sys",
+                "menu",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "保存",
+            "header": []
+          },
+          "description": "保存"
+        },
+        {
+          "name": "更新",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"children\": [\n    {\n      \"$ref\": \"..\"\n    }\n  ],\n  \"id\": 492,\n  \"pid\": 72,\n  \"name\": \"douglas.champlin\",\n  \"url\": \"www.alayna-dibbert.info\",\n  \"type\": 498,\n  \"icon\": \"04h9xi\",\n  \"permissions\": \"u23pyj\",\n  \"sort\": 396,\n  \"parentName\": \"douglas.champlin\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/",
+              "path": [
+                "sys",
+                "menu",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "更新",
+            "header": []
+          },
+          "description": "更新"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "DELETE",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/548",
+              "path": [
+                "sys",
+                "menu",
+                ":id"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "548",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        },
+        {
+          "name": "当前用户拥有菜单",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/menu/select",
+              "path": [
+                "sys",
+                "menu",
+                "select"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "当前用户拥有菜单",
+            "header": []
+          },
+          "description": "当前用户拥有菜单"
+        }
+      ]
+    },
+    {
+      "name": "角色管理",
+      "item": [
+        {
+          "name": "分页查询",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/page?page=1&pageSize=10&name=douglas.champlin",
+              "path": [
+                "sys",
+                "role",
+                "page"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "当前页"
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "description": "每页条数"
+                },
+                {
+                  "key": "name",
+                  "value": "douglas.champlin",
+                  "description": "角色名称"
+                }
+              ],
+              "variable": []
+            },
+            "description": "分页查询",
+            "header": []
+          },
+          "description": "分页查询"
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/list?page=1&pageSize=10&name=douglas.champlin",
+              "path": [
+                "sys",
+                "role",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "当前页"
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "description": "每页条数"
+                },
+                {
+                  "key": "name",
+                  "value": "douglas.champlin",
+                  "description": "角色名称"
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "根据id查询",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/308",
+              "path": [
+                "sys",
+                "role",
+                ":id"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "308",
+                  "description": "角色id"
+                }
+              ]
+            },
+            "description": "根据id查询",
+            "header": []
+          },
+          "description": "根据id查询"
+        },
+        {
+          "name": "新增",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 421,\n  \"name\": \"douglas.champlin\",\n  \"remark\": \"lewa24\",\n  \"menuIdList\": [\n    249\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/",
+              "path": [
+                "sys",
+                "role",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "新增",
+            "header": []
+          },
+          "description": "新增"
+        },
+        {
+          "name": "更新",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 110,\n  \"name\": \"douglas.champlin\",\n  \"remark\": \"ieo8l7\",\n  \"menuIdList\": [\n    128\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/",
+              "path": [
+                "sys",
+                "role",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "更新",
+            "header": []
+          },
+          "description": "更新"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "DELETE",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  \"iw5cmr\"\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/role/",
+              "path": [
+                "sys",
+                "role",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "定时任务配置",
+      "item": [
+        {
+          "name": "立即执行",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "url": {
+              "raw": "::server/sys/task/config/run/douglas.champlin",
+              "path": [
+                "sys",
+                "task",
+                "config",
+                "run",
+                ":name"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "name",
+                  "value": "douglas.champlin",
+                  "description": "定时任务名称"
+                }
+              ]
+            },
+            "description": "立即执行",
+            "header": []
+          },
+          "description": "立即执行"
+        },
+        {
+          "name": "列表",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/task/config/list?page=1&pageSize=10&taskName=douglas.champlin",
+              "path": [
+                "sys",
+                "task",
+                "config",
+                "list"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "当前页"
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "description": "每页条数"
+                },
+                {
+                  "key": "taskName",
+                  "value": "douglas.champlin",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "description": "列表",
+            "header": []
+          },
+          "description": "列表"
+        },
+        {
+          "name": "详情",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/task/config/detail?id=692",
+              "path": [
+                "sys",
+                "task",
+                "config",
+                "detail"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "id",
+                  "value": "692",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "description": "详情",
+            "header": []
+          },
+          "description": "详情"
+        },
+        {
+          "name": "新增",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 226,\n  \"taskName\": \"douglas.champlin\",\n  \"enable\": true,\n  \"cronExpression\": \"dg10l8\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/task/config/save",
+              "path": [
+                "sys",
+                "task",
+                "config",
+                "save"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "新增",
+            "header": []
+          },
+          "description": "新增"
+        },
+        {
+          "name": "更新",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 466,\n  \"taskName\": \"douglas.champlin\",\n  \"enable\": true,\n  \"cronExpression\": \"mbfei8\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/task/config/update",
+              "path": [
+                "sys",
+                "task",
+                "config",
+                "update"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "更新",
+            "header": []
+          },
+          "description": "更新"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "url": {
+              "raw": "::server/sys/task/config/delete/858",
+              "path": [
+                "sys",
+                "task",
+                "config",
+                "delete",
+                ":id"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "858",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "用户管理",
+      "item": [
+        {
+          "name": "分页查询",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/page?page=1&pageSize=10&username=douglas.champlin",
+              "path": [
+                "sys",
+                "user",
+                "page"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "当前页"
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "description": "每页条数"
+                },
+                {
+                  "key": "username",
+                  "value": "douglas.champlin",
+                  "description": "用户名"
+                }
+              ],
+              "variable": []
+            },
+            "description": "分页查询",
+            "header": []
+          },
+          "description": "分页查询"
+        },
+        {
+          "name": "根据id查询",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/660",
+              "path": [
+                "sys",
+                "user",
+                ":id"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "key": "id",
+                  "value": "660",
+                  "description": "No comments found."
+                }
+              ]
+            },
+            "description": "根据id查询",
+            "header": []
+          },
+          "description": "根据id查询"
+        },
+        {
+          "name": "当前用户信息",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/info",
+              "path": [
+                "sys",
+                "user",
+                "info"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "当前用户信息",
+            "header": []
+          },
+          "description": "当前用户信息"
+        },
+        {
+          "name": "修改密码",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"password\": \"blweg5\",\n  \"newPassword\": \"cvlash\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/password",
+              "path": [
+                "sys",
+                "user",
+                "password"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "修改密码",
+            "header": []
+          },
+          "description": "修改密码"
+        },
+        {
+          "name": "新增",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 1,\n  \"username\": \"douglas.champlin\",\n  \"password\": \"dc5j85\",\n  \"realName\": \"douglas.champlin\",\n  \"headUrl\": \"www.alayna-dibbert.info\",\n  \"gender\": 1,\n  \"email\": \"charleen.schultz@hotmail.com\",\n  \"mobile\": \"517.567.1154\",\n  \"status\": 77,\n  \"roleIdList\": [\n    12\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/",
+              "path": [
+                "sys",
+                "user",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "新增",
+            "header": []
+          },
+          "description": "新增"
+        },
+        {
+          "name": "更新",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 425,\n  \"username\": \"douglas.champlin\",\n  \"password\": \"sjb7ts\",\n  \"realName\": \"douglas.champlin\",\n  \"headUrl\": \"www.alayna-dibbert.info\",\n  \"gender\": 1,\n  \"email\": \"charleen.schultz@hotmail.com\",\n  \"mobile\": \"517.567.1154\",\n  \"status\": 176,\n  \"roleIdList\": [\n    235\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/",
+              "path": [
+                "sys",
+                "user",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "更新",
+            "header": []
+          },
+          "description": "更新"
+        },
+        {
+          "name": "删除",
+          "request": {
+            "method": "DELETE",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  \"5uo0n8\"\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/sys/user/",
+              "path": [
+                "sys",
+                "user",
+                ""
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "description": "删除",
+            "header": []
+          },
+          "description": "删除"
+        }
+      ]
+    },
+    {
+      "name": "Interface name is not set.",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/a/test",
+              "path": [
+                "a",
+                "test"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/a/test2",
+              "path": [
+                "a",
+                "test2"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/a/test3",
+              "path": [
+                "a",
+                "test3"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/a/test4",
+              "path": [
+                "a",
+                "test4"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/a/test5",
+              "path": [
+                "a",
+                "test5"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/a/test6?page=1&pageSize=10&username=douglas.champlin",
+              "path": [
+                "a",
+                "test6"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1",
+                  "description": "当前页"
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10",
+                  "description": "每页条数"
+                },
+                {
+                  "key": "username",
+                  "value": "douglas.champlin",
+                  "description": "用户名"
+                }
+              ],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/a/test7",
+              "path": [
+                "a",
+                "test7"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Interface name is not set.",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/test/resource/read?path=a3nv2d",
+              "path": [
+                "test",
+                "resource",
+                "read"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "path",
+                  "value": "a3nv2d",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "文件上传测试",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/download?path=rxhgzj",
+              "path": [
+                "download"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "path",
+                  "value": "rxhgzj",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/download2?path=oh6obd",
+              "path": [
+                "download2"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "path",
+                  "value": "oh6obd",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "description": "No comments found.",
+                  "value": "",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "::server/upload",
+              "path": [
+                "upload"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "description": "No comments found.",
+                  "value": "",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "::server/asyncUpload",
+              "path": [
+                "asyncUpload"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/detail?path=9j1ya1",
+              "path": [
+                "detail"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "path",
+                  "value": "9j1ya1",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "path",
+                  "type": "text",
+                  "description": "No comments found.",
+                  "value": "d36w0f",
+                  "hasItems": false
+                }
+              ]
+            },
+            "url": {
+              "raw": "::server/delete",
+              "path": [
+                "delete"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Interface name is not set.",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/posInfo",
+              "path": [
+                "posInfo"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Interface name is not set.",
+      "item": [
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/b",
+              "path": [
+                "b"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/setR?r=shi6fx",
+              "path": [
+                "setR"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [
+                {
+                  "key": "r",
+                  "value": "shi6fx",
+                  "description": "No comments found."
+                }
+              ],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/deferredResult",
+              "path": [
+                "deferredResult"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        },
+        {
+          "name": "Interface name is not set.",
+          "request": {
+            "method": "GET",
+            "body": {
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "::server/getL",
+              "path": [
+                "getL"
+              ],
+              "host": [
+                "{{server}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": []
+          },
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

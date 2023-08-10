@@ -5,13 +5,15 @@ logging:
     max-size: 100MB
     max-history: 15
     name: /var/log/${spring.application.name}/${spring.application.name}-${spring.profiles.active}.log
+    total-size-cap: 20GB
 spring:
   resources:
+    # 生产环境禁止访问smart-doc
     add-mappings: false
   datasource:
     druid:
       #MySQL
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://127.0.0.1:3306/bay_parking?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true&useSSL=false
+      url: jdbc:mysql://127.0.0.1:3306/bay_parking?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true&useSSL=false&createDatabaseIfNotExist=true
       username: root
       password: xiangsuyuan
