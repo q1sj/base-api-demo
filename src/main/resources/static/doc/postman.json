@@ -1,7 +1,7 @@
 {
   "info": {
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_postman_id": "bd348c89-7c13-4821-85b8-62941d434f4a",
+    "_postman_id": "a199abff-7666-4f54-be5d-91da312468f7",
     "name": "xsy-api-demo-1.0.0"
   },
   "item": [
@@ -20,7 +20,7 @@
               }
             },
             "url": {
-              "raw": "::server/download?path=58cyeh",
+              "raw": "::server/download?path=gw9exx",
               "path": [
                 "download"
               ],
@@ -30,7 +30,7 @@
               "query": [
                 {
                   "key": "path",
-                  "value": "58cyeh",
+                  "value": "gw9exx",
                   "description": "No comments found."
                 }
               ],
@@ -52,7 +52,7 @@
               }
             },
             "url": {
-              "raw": "::server/download2?path=k67tys",
+              "raw": "::server/download2?path=k1q7th",
               "path": [
                 "download2"
               ],
@@ -62,7 +62,7 @@
               "query": [
                 {
                   "key": "path",
-                  "value": "k67tys",
+                  "value": "k1q7th",
                   "description": "No comments found."
                 }
               ],
@@ -146,7 +146,7 @@
               }
             },
             "url": {
-              "raw": "::server/detail?path=clwghm",
+              "raw": "::server/detail?path=snz5ta",
               "path": [
                 "detail"
               ],
@@ -156,7 +156,7 @@
               "query": [
                 {
                   "key": "path",
-                  "value": "clwghm",
+                  "value": "snz5ta",
                   "description": "No comments found."
                 }
               ],
@@ -177,7 +177,7 @@
                   "key": "path",
                   "type": "text",
                   "description": "No comments found.",
-                  "value": "dmd5n9",
+                  "value": "agl7pe",
                   "hasItems": false
                 }
               ]
@@ -241,7 +241,7 @@
               }
             },
             "url": {
-              "raw": "::server/testConfig/list?value=673cfx",
+              "raw": "::server/testConfig/list?value=939znd",
               "path": [
                 "testConfig",
                 "list"
@@ -252,7 +252,7 @@
               "query": [
                 {
                   "key": "value",
-                  "value": "673cfx",
+                  "value": "939znd",
                   "description": "No comments found."
                 }
               ],
@@ -370,7 +370,7 @@
               }
             },
             "url": {
-              "raw": "::server/log/get?name=morgan.considine",
+              "raw": "::server/log/get?name=antonio.beahan",
               "path": [
                 "log",
                 "get"
@@ -381,7 +381,7 @@
               "query": [
                 {
                   "key": "name",
-                  "value": "morgan.considine",
+                  "value": "antonio.beahan",
                   "description": "    文件名"
                 }
               ],
@@ -442,7 +442,7 @@
               }
             },
             "url": {
-              "raw": "::server/file/download?path=ewvldy",
+              "raw": "::server/file/download?path=90o79z",
               "path": [
                 "file",
                 "download"
@@ -453,7 +453,7 @@
               "query": [
                 {
                   "key": "path",
-                  "value": "ewvldy",
+                  "value": "90o79z",
                   "description": "    {@link FileRecordEntity#getPath()}"
                 }
               ],
@@ -476,7 +476,7 @@
               }
             },
             "url": {
-              "raw": "::server/file/download/687",
+              "raw": "::server/file/download/836",
               "path": [
                 "file",
                 "download",
@@ -489,7 +489,7 @@
               "variable": [
                 {
                   "key": "fileId",
-                  "value": "687",
+                  "value": "836",
                   "description": "No comments found."
                 }
               ]
@@ -511,7 +511,7 @@
               }
             },
             "url": {
-              "raw": "::server/file/img/226",
+              "raw": "::server/file/img/70",
               "path": [
                 "file",
                 "img",
@@ -524,7 +524,7 @@
               "variable": [
                 {
                   "key": "fileId",
-                  "value": "226",
+                  "value": "70",
                   "description": "No comments found."
                 }
               ]
@@ -545,7 +545,7 @@
                   "key": "path",
                   "type": "string",
                   "description": "No comments found.",
-                  "value": "66ym86",
+                  "value": "78d009",
                   "hasItems": false
                 }
               ]
@@ -619,7 +619,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/schedule/info/880",
+              "raw": "::server/sys/schedule/info/686",
               "path": [
                 "sys",
                 "schedule",
@@ -633,7 +633,7 @@
               "variable": [
                 {
                   "key": "jobId",
-                  "value": "880",
+                  "value": "686",
                   "description": "No comments found."
                 }
               ]
@@ -649,7 +649,7 @@
             "method": "GET",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"jobId\": 157,\n  \"beanName\": \"morgan.considine\",\n  \"params\": \"pxxlxs\",\n  \"cronExpression\": \"fmmr8c\",\n  \"status\": 783,\n  \"remark\": \"vie8rv\",\n  \"createTime\": \"2023-08-10 10:27:14\"\n}",
+              "raw": "{\n  \"jobId\": 753,\n  \"beanName\": \"antonio.beahan\",\n  \"params\": \"l5w5b2\",\n  \"cronExpression\": \"t184sv\",\n  \"status\": 379,\n  \"remark\": \"o8vjws\",\n  \"createTime\": \"2023-08-11 15:46:50\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -680,7 +680,7 @@
             "method": "GET",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"jobId\": 30,\n  \"beanName\": \"morgan.considine\",\n  \"params\": \"6arz0d\",\n  \"cronExpression\": \"bno6bu\",\n  \"status\": 297,\n  \"remark\": \"p1w8nj\",\n  \"createTime\": \"2023-08-10 10:27:14\"\n}",
+              "raw": "{\n  \"jobId\": 158,\n  \"beanName\": \"antonio.beahan\",\n  \"params\": \"2jyos5\",\n  \"cronExpression\": \"uknun8\",\n  \"status\": 686,\n  \"remark\": \"vsxybs\",\n  \"createTime\": \"2023-08-11 15:46:50\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -711,7 +711,7 @@
             "method": "GET",
             "body": {
               "mode": "raw",
-              "raw": "[\n  \"pfuyju\"\n]",
+              "raw": "[\n  \"zpfe7k\"\n]",
               "options": {
                 "raw": {
                   "language": "json"
@@ -742,7 +742,7 @@
             "method": "GET",
             "body": {
               "mode": "raw",
-              "raw": "[\n  \"k32557\"\n]",
+              "raw": "[\n  \"0azww4\"\n]",
               "options": {
                 "raw": {
                   "language": "json"
@@ -773,7 +773,7 @@
             "method": "GET",
             "body": {
               "mode": "raw",
-              "raw": "[\n  \"chcxzx\"\n]",
+              "raw": "[\n  \"2126n9\"\n]",
               "options": {
                 "raw": {
                   "language": "json"
@@ -804,7 +804,7 @@
             "method": "GET",
             "body": {
               "mode": "raw",
-              "raw": "[\n  \"5nnjy2\"\n]",
+              "raw": "[\n  \"6gc7vm\"\n]",
               "options": {
                 "raw": {
                   "language": "json"
@@ -881,7 +881,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/scheduleLog/info/914",
+              "raw": "::server/sys/scheduleLog/info/462",
               "path": [
                 "sys",
                 "scheduleLog",
@@ -895,7 +895,7 @@
               "variable": [
                 {
                   "key": "logId",
-                  "value": "914",
+                  "value": "462",
                   "description": "No comments found."
                 }
               ]
@@ -916,7 +916,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"username\": \"morgan.considine\",\n  \"password\": \"z4wzbr\"\n}",
+              "raw": "{\n  \"username\": \"antonio.beahan\",\n  \"password\": \"oa5q3t\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -980,7 +980,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/config/list?configKey=fmjfzz&page=1&pageSize=10",
+              "raw": "::server/sys/config/list?configKey=hxai6l&page=1&pageSize=10",
               "path": [
                 "sys",
                 "config",
@@ -992,7 +992,7 @@
               "query": [
                 {
                   "key": "configKey",
-                  "value": "fmjfzz",
+                  "value": "hxai6l",
                   "description": "No comments found."
                 },
                 {
@@ -1019,7 +1019,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"configKey\": \"34w0rl\",\n  \"configValueType\": \"6wi1ig\",\n  \"configValue\": \"hfyo00\",\n  \"remark\": \"irmgbh\"\n}",
+              "raw": "{\n  \"configKey\": \"hsc3wn\",\n  \"configValueType\": \"2fwu76\",\n  \"configValue\": \"eii3gg\",\n  \"remark\": \"c34dmx\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1181,7 +1181,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/menu/list?type=396",
+              "raw": "::server/sys/menu/list?type=153",
               "path": [
                 "sys",
                 "menu",
@@ -1193,7 +1193,7 @@
               "query": [
                 {
                   "key": "type",
-                  "value": "396",
+                  "value": "153",
                   "description": "No comments found."
                 }
               ],
@@ -1216,7 +1216,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/menu/721",
+              "raw": "::server/sys/menu/682",
               "path": [
                 "sys",
                 "menu",
@@ -1229,7 +1229,7 @@
               "variable": [
                 {
                   "key": "id",
-                  "value": "721",
+                  "value": "682",
                   "description": "No comments found."
                 }
               ]
@@ -1245,7 +1245,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"children\": [\n    {\n      \"$ref\": \"..\"\n    }\n  ],\n  \"id\": 725,\n  \"pid\": 682,\n  \"name\": \"morgan.considine\",\n  \"url\": \"www.ben-hoppe.name\",\n  \"type\": 31,\n  \"icon\": \"wtdxz8\",\n  \"permissions\": \"zvw2id\",\n  \"sort\": 588,\n  \"parentName\": \"morgan.considine\"\n}",
+              "raw": "{\n  \"children\": [\n    {\n      \"$ref\": \"..\"\n    }\n  ],\n  \"id\": 623,\n  \"pid\": 239,\n  \"name\": \"antonio.beahan\",\n  \"url\": \"www.myron-rutherford.name\",\n  \"type\": 825,\n  \"icon\": \"j9idpy\",\n  \"permissions\": \"v70fdj\",\n  \"sort\": 599,\n  \"parentName\": \"antonio.beahan\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1276,7 +1276,7 @@
             "method": "PUT",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"children\": [\n    {\n      \"$ref\": \"..\"\n    }\n  ],\n  \"id\": 617,\n  \"pid\": 555,\n  \"name\": \"morgan.considine\",\n  \"url\": \"www.ben-hoppe.name\",\n  \"type\": 28,\n  \"icon\": \"e8k4tx\",\n  \"permissions\": \"tmkbhy\",\n  \"sort\": 392,\n  \"parentName\": \"morgan.considine\"\n}",
+              "raw": "{\n  \"children\": [\n    {\n      \"$ref\": \"..\"\n    }\n  ],\n  \"id\": 168,\n  \"pid\": 987,\n  \"name\": \"antonio.beahan\",\n  \"url\": \"www.myron-rutherford.name\",\n  \"type\": 208,\n  \"icon\": \"kox6vz\",\n  \"permissions\": \"cccct0\",\n  \"sort\": 855,\n  \"parentName\": \"antonio.beahan\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1313,7 +1313,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/menu/173",
+              "raw": "::server/sys/menu/502",
               "path": [
                 "sys",
                 "menu",
@@ -1326,7 +1326,7 @@
               "variable": [
                 {
                   "key": "id",
-                  "value": "173",
+                  "value": "502",
                   "description": "No comments found."
                 }
               ]
@@ -1382,7 +1382,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/role/page?page=1&pageSize=10&name=morgan.considine",
+              "raw": "::server/sys/role/page?page=1&pageSize=10&name=antonio.beahan",
               "path": [
                 "sys",
                 "role",
@@ -1404,7 +1404,7 @@
                 },
                 {
                   "key": "name",
-                  "value": "morgan.considine",
+                  "value": "antonio.beahan",
                   "description": "角色名称"
                 }
               ],
@@ -1427,7 +1427,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/role/list?page=1&pageSize=10&name=morgan.considine",
+              "raw": "::server/sys/role/list?page=1&pageSize=10&name=antonio.beahan",
               "path": [
                 "sys",
                 "role",
@@ -1449,7 +1449,7 @@
                 },
                 {
                   "key": "name",
-                  "value": "morgan.considine",
+                  "value": "antonio.beahan",
                   "description": "角色名称"
                 }
               ],
@@ -1472,7 +1472,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/role/184",
+              "raw": "::server/sys/role/497",
               "path": [
                 "sys",
                 "role",
@@ -1485,7 +1485,7 @@
               "variable": [
                 {
                   "key": "id",
-                  "value": "184",
+                  "value": "497",
                   "description": "角色id"
                 }
               ]
@@ -1501,7 +1501,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"id\": 10,\n  \"name\": \"morgan.considine\",\n  \"remark\": \"bw99t0\",\n  \"menuIdList\": [\n    626\n  ]\n}",
+              "raw": "{\n  \"id\": 66,\n  \"name\": \"antonio.beahan\",\n  \"remark\": \"oi1o40\",\n  \"menuIdList\": [\n    160\n  ]\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1532,7 +1532,7 @@
             "method": "PUT",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"id\": 476,\n  \"name\": \"morgan.considine\",\n  \"remark\": \"f9i6o6\",\n  \"menuIdList\": [\n    558\n  ]\n}",
+              "raw": "{\n  \"id\": 634,\n  \"name\": \"antonio.beahan\",\n  \"remark\": \"0jwtll\",\n  \"menuIdList\": [\n    127\n  ]\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1563,7 +1563,7 @@
             "method": "DELETE",
             "body": {
               "mode": "raw",
-              "raw": "[\n  \"4qurl9\"\n]",
+              "raw": "[\n  \"4q61uw\"\n]",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1605,7 +1605,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/user/page?page=1&pageSize=10&username=morgan.considine",
+              "raw": "::server/sys/user/page?page=1&pageSize=10&username=antonio.beahan",
               "path": [
                 "sys",
                 "user",
@@ -1627,7 +1627,7 @@
                 },
                 {
                   "key": "username",
-                  "value": "morgan.considine",
+                  "value": "antonio.beahan",
                   "description": "用户名"
                 }
               ],
@@ -1650,7 +1650,7 @@
               }
             },
             "url": {
-              "raw": "::server/sys/user/983",
+              "raw": "::server/sys/user/537",
               "path": [
                 "sys",
                 "user",
@@ -1663,7 +1663,7 @@
               "variable": [
                 {
                   "key": "id",
-                  "value": "983",
+                  "value": "537",
                   "description": "No comments found."
                 }
               ]
@@ -1708,7 +1708,7 @@
             "method": "PUT",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"password\": \"1nss8n\",\n  \"newPassword\": \"nyz00j\"\n}",
+              "raw": "{\n  \"password\": \"dpfvnl\",\n  \"newPassword\": \"ul4mt3\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1739,7 +1739,7 @@
             "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"id\": 213,\n  \"username\": \"morgan.considine\",\n  \"password\": \"cxjfe0\",\n  \"realName\": \"morgan.considine\",\n  \"headUrl\": \"www.ben-hoppe.name\",\n  \"gender\": 1,\n  \"email\": \"samantha.jaskolski@yahoo.com\",\n  \"mobile\": \"(615) 567-0246\",\n  \"status\": 169,\n  \"roleIdList\": [\n    67\n  ]\n}",
+              "raw": "{\n  \"id\": 602,\n  \"username\": \"antonio.beahan\",\n  \"password\": \"0pruxe\",\n  \"realName\": \"antonio.beahan\",\n  \"headUrl\": \"www.myron-rutherford.name\",\n  \"gender\": 1,\n  \"email\": \"shirlene.schimmel@hotmail.com\",\n  \"mobile\": \"386.479.9907\",\n  \"status\": 351,\n  \"roleIdList\": [\n    856\n  ]\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1770,7 +1770,7 @@
             "method": "PUT",
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"id\": 352,\n  \"username\": \"morgan.considine\",\n  \"password\": \"kjo19e\",\n  \"realName\": \"morgan.considine\",\n  \"headUrl\": \"www.ben-hoppe.name\",\n  \"gender\": 1,\n  \"email\": \"samantha.jaskolski@yahoo.com\",\n  \"mobile\": \"(615) 567-0246\",\n  \"status\": 404,\n  \"roleIdList\": [\n    731\n  ]\n}",
+              "raw": "{\n  \"id\": 40,\n  \"username\": \"antonio.beahan\",\n  \"password\": \"zw1401\",\n  \"realName\": \"antonio.beahan\",\n  \"headUrl\": \"www.myron-rutherford.name\",\n  \"gender\": 1,\n  \"email\": \"shirlene.schimmel@hotmail.com\",\n  \"mobile\": \"386.479.9907\",\n  \"status\": 405,\n  \"roleIdList\": [\n    122\n  ]\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1801,7 +1801,7 @@
             "method": "DELETE",
             "body": {
               "mode": "raw",
-              "raw": "[\n  \"vqitym\"\n]",
+              "raw": "[\n  \"w4704h\"\n]",
               "options": {
                 "raw": {
                   "language": "json"

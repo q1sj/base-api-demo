@@ -3,6 +3,9 @@ logging:
     com.xsy: debug
     com.demo: debug
 spring:
+  flyway:
+    # 开发环境关闭
+#    enabled: false
   datasource:
     druid:
       #MySQL
